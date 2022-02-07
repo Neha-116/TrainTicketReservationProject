@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&family=Rubik:wght@300;400;500&display=swap');
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #012481 ;
+}
+
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    text-transform: capitalize;
+    flex: 1 1 20%;
+    align-self: center;
+    background-color:white;
+    padding: 2em 2.7em;
+    color: #012481;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+form{
+    background-color: white;
+    flex: 1 1 80%;
+    align-self: center;
+    padding-top: 1em;
+}
+
+form h4{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #012481;
+    font-size: 16px;
+    text-align: center;
+}
+
+input{
+    height: 27px;
+    outline: none;
+}
+
+.input-group{
+    border: 1px solid rgb(221, 218, 218);
+    margin: 0.5em;
+    padding: 0.5em;
+    display: flex;;
+}
+
+.input-box{
+    margin-right: 1em;
+    cursor: text;
+}
+
+::placeholder{
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+
+.dob{
+    width: 50px;
+}
+
+
+button{
+  cursor: pointer;
+  padding: 0.5em 1em;
+  background-color: #012481;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #48567a;
+}
+
+#text{
+    font-family: 'Raleway', sans-serif;
+}
+
+option{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-box{
+        margin-top: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        margin-top: 1em;
+        text-transform: capitalize;
+        background-color:white;
+        color: #012481;
+        font-weight: 500;
+        border: 2px solid black;
+    }
+}

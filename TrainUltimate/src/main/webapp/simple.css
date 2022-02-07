@@ -1,0 +1,97 @@
+body {
+    background-image:url("train1.gif");
+    background-size: cover;
+    height: 100vh;
+    background-position:center;
+}
+
+.login-page {
+    width:360px;
+    padding:10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-indez: 1;
+    background-color: rigba(7 ,40, 195, 0.8);
+    max-width: 360;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+
+    font-family: "roboto", sans-serif;
+    outline:1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding:15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+#Bru{
+    Font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline:0;
+    Background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.form button {
+    Font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline:0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+
+
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+
+}
+
+.form .message a{
+    color:aliceblue;
+    text-decoration: none;
+
+
+}
+
+.form .register{
+    display:none;
+}
+.ticket {
+    text-align: center;
+    border-radius: 20px 20px;
+    border-spacing: 0px;
+    background-color: white;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+

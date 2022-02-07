@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+body {
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.card {
+  height: 300px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding-top: 20px;
+  display: block;
+  margin: 60px auto 0;
+  display:block;
+}
+
+.title {
+  font-family: Product Sans;
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.buttonlogin {
+  height: 34px;
+  width: 75px;
+  font-family: Product Sans;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  display: block;
+  margin: 30px auto;
+  border-radius: 4px;
+  border-width: 0;
+  outline: none;
+  box-shadow: 0 1.2px 3px rgba(0, 0, 0, .6);
+  cursor: pointer;
+  font-type: bold;
+  margin-top: 45px;
+}
+
+.buttonlogin:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .6);
+  background-color: #1E88E5;
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+input         {
+  font-size: 18px;
+  padding: 10px 10px 5px 30px;
+  display: block;
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid #2196F3;
+  outline: none;
+  margin: auto;
+  margin-top: 20px;
+  font-family: Product Sans;
+}
+
+.buttonlogin {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.buttonlogin:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+
+.iconinput {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}

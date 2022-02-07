@@ -1,0 +1,52 @@
+html {
+  margin: 0;
+}
+ body{
+  font-size: .8em;
+  color:black;
+  background-size:cover;
+  background-image:url("register.jpg");
+  background-repeat:no-repeat;
+}
+ td{
+font-size: 18px;
+ }
+
+ .add{
+ Font-family: "Roboto",sans-serif;
+     text-transform: uppercase;
+     outline:0;
+     Background: #6699ff;
+     width: 10%;
+     border: 0;
+     padding: 15px;
+     color: #ffffff;
+     font-size: 14px;
+     cursor: pointer;
+     }
+
+     .delete{
+      Font-family: "Roboto",sans-serif;
+          text-transform: uppercase;
+          outline:0;
+          Background: #ff3333;
+          width: 10%;
+          border: 0;
+          padding: 15px;
+          color: #ffffff;
+          font-size: 14px;
+          cursor: pointer;
+          }
+
+          .modify{
+           Font-family: "Roboto",sans-serif;
+               text-transform: uppercase;
+               outline:0;
+               Background: #ff8000;
+               width: 10%;
+               border: 0;
+               padding: 15px;
+               color: #ffffff;
+               font-size: 14px;
+               cursor: pointer;
+               }
